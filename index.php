@@ -117,7 +117,7 @@ if($insert){
 ?>
   <div class="container my-3">
     <h2>Add a Note</h2>
-    <form action = "/crud/index.php" method = "post">
+    <form action = "index.php" method = "post">
       <div class="form-group">
         <label for="title">Note Title</label>
         <input type="text" class="form-control" id="title" name="title" aria-describedby="emailHelp">
